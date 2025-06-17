@@ -1,0 +1,43 @@
+* {
+    color: $color-white;
+    font-family: $font-family-body;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    font-family: $font-family-heading;
+}
+
+p {
+    max-width: 750px;
+}
+
+h1 {
+  @include responsive-heading(2rem, 2.5rem, 3rem);
+  font-weight: 700;
+}
+
+h2 {
+  @include responsive-heading(1.75rem, 2.25rem, 2.5rem);
+  font-weight: 700;
+}
+
+h3 {
+  @include responsive-heading(1.5rem, 2rem, 2.25rem);
+  font-weight: 600;
+}
+
+h4 {
+  @include responsive-heading(1.25rem, 1.5rem, 1.75rem);
+  font-weight: 600;
+}
+
+h5 {
+  @include responsive-heading(1rem, 1.25rem, 1.5rem);
+  font-weight: 500;
+}
+
+h6 {
+  @include responsive-heading(0.875rem, 1rem, 1.125rem);
+  font-weight: 500;
+}

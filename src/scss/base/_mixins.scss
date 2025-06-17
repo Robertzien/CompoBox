@@ -1,0 +1,11 @@
+@mixin responsive-heading($mobile-size, $tablet-size, $desktop-size) {
+  font-size: $mobile-size;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: $tablet-size;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    font-size: $desktop-size;
+  }
+}

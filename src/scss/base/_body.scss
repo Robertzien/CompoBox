@@ -1,0 +1,18 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: $color-primary;
+  max-height: 100vh;
+  height: 100%;
+  overflow: hidden;
+}
+
+.body-wrapper {
+  display: grid;
+  grid-template-columns: repeat(1fr, 6);
+  margin: 0 auto;
+  padding: $whitespace;
+  height: 100%;
+  box-sizing: border-box;
+  max-width: 2000px;
+}

@@ -1,2 +1,13 @@
-@use 'base/layout';
-@use 'base/settings';
+/* Settings */
+@import 'settings';
+@import 'base/fonts';
+@import 'base/mixins';
+ 
+/* Base */
+@import 'base/layout';
+@import 'base/body';
+@import 'base/container';
+@import 'base/content';
+
+/* Base components */
+@import 'components/base/sidemenu'; 
